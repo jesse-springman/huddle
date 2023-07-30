@@ -1,0 +1,32 @@
+@media (max-width: 425px){
+    body{
+       background-image: url(../images/bg-mobile.svg);
+       height: 50vh;
+       padding: 30px;
+    }
+  
+    .logo img{
+        max-width: 170px;
+    }
+
+    .main{
+        display: block;  
+    }
+
+
+    .main .texto{
+        text-align: center;
+    }
+
+    .main .botao{
+        padding: 20px 90px;
+    }
+    
+
+    .lista{
+        justify-content:center;  
+        padding: 50px;
+    }
+
+  
+}
