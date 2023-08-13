@@ -18,8 +18,14 @@
         text-align: center;
     }
 
-    .main .botao{
-        padding: 20px 90px;
+    .main .texto{
+        text-align: center;
+        font-size: 1.9rem;
+
+    }
+
+    .main .texto .titulo{
+        font-size: 2.5rem;
     }
     
 

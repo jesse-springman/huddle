@@ -12,7 +12,7 @@ body{
     height: 100vh;
     padding: 70px;
     font-weight: 400;
-
+ 
 }
 
 
@@ -61,20 +61,24 @@ body{
     padding: 20px 70px;
     border-radius: 30px;
     font-size: 1.6rem;   
+    border: none;
+    box-shadow: 2px 2px 10px black;
+    color: var(--violeta);
+    transition: 0.3s;
+
 }
 
-.main .botao a{
-    color: var(--violeta);
-}
+
 
 
 .main .botao:hover{
     background-color: var(--rose);
+    cursor: pointer;
+    color: #fff;
+
 }
 
-.main .botao a:hover{
-    color: #fff;
-}
+
 
 .lista{
     display: flex;
@@ -98,7 +102,7 @@ body{
 
 
  .lista .face{
-    padding: 10px 15px;
+    padding: 10px 14px;
     border-radius: 50%;
     border: solid 1px #fff; 
 } 
